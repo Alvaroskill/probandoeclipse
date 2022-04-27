@@ -9,7 +9,7 @@ package controlador;
  */
 public class Principal {
 
-	String nombre = "Pilar";
+	static String nombre = "Álvaro";
 	
 	
 	/**
@@ -18,6 +18,7 @@ public class Principal {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.print("Hola mundo");
+		System.out.print(nombre);
 
 	}
 
